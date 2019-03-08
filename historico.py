@@ -10,11 +10,12 @@ def get_login(logg,senha):
     return (logg in logins) and (logins[logg] == senha)
 
 def get_disciplinas(login):
-    if logins['Leo']:
-        return disciplinas[login]
-    elif logins['Ana']:
-        return disciplinas[login]
-    elif logins['Bea']:
-        return disciplinas[login]
-    else:
-        return False
+    return disciplinas[login]
+    #if logins['Leo']:
+     #   return disciplinas[login]
+   # elif logins['Ana']:
+    #    return disciplinas[login]
+   # elif logins['Bea']:
+   #     return disciplinas[login]
+   # else:
+    #    return False
